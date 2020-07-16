@@ -1,0 +1,3 @@
+I am learning Java
+Java is easy but I need to study hard
+If I have learn Java well, others are easy in testing area
