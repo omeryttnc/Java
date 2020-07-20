@@ -1,6 +1,10 @@
 package techproed2020.day33exceptionsdt;
 
+import org.omg.CORBA.ExceptionList;
+
 public class E01 {
+    private static Object ExceptionList;
+
     public static void main(String[] args) {
         try {
             divide(12, 0);
@@ -27,6 +31,7 @@ public class E01 {
 
     public static void add() {
         throw new RuntimeException("I created that exception");
+
     }
 
 }
