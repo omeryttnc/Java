@@ -7,7 +7,7 @@ Check numbers if they are even or not in a return method
  */
 public class Challange {
     public static void main(String[] args) {
-        System.out.println( CheckPrime(65));
+  //      System.out.println( CheckPrime(65));
 
 
 
@@ -15,7 +15,7 @@ public class Challange {
     }
 
     public static boolean CheckPrime(int numberToCheck, int remainder) {
-        int remainder;
+   //    int remainder;
         int count = 0;
         for (int i = 2; i <= numberToCheck / 2; i++) {
             remainder = numberToCheck % i;
