@@ -12,7 +12,7 @@ public class homework05_initial_of_the_day_of_a_week {
         }
         if(initial.contains("m")) {
             System.out.println("Monday");
-        }if(initial.contains("t")) {
+        }if(initial.contains("teamQuestions")) {
             System.out.println("Tuesday and Thursday");
         }if(initial.contains("w")) {
             System.out.println("Wednesday");

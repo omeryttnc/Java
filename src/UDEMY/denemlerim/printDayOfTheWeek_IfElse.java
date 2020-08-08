@@ -5,7 +5,7 @@ public class printDayOfTheWeek_IfElse {
         int day = 1;
         if (day == 0) System.out.println("Sunday");
       else if  (day == 1) System.out.println("Monday");
-        else if  (day == 2) System.out.println("t");
+        else if  (day == 2) System.out.println("teamQuestions");
         else if  (day == 3) System.out.println("w");
         else if  (day == 4) System.out.println("th");
         else if  (day == 5) System.out.println("f");

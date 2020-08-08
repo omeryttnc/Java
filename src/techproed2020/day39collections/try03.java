@@ -17,6 +17,16 @@ public class try03 {
         System.out.println( q1.remove());
         System.out.println(q1);
         q1.remove();
+        System.out.println("herseyden once "+ q1);
+        System.out.println("element " + q1.element());
+        System.out.println("elementden sonra " + q1);
+        System.out.println("q1.poll "+q1.poll());
+        System.out.println("after poll "+q1);
+        System.out.println(q1.peek());
+        System.out.println(q1);
+        q1.clear();
+       // System.out.println(q1.element());
+        System.out.println(q1.peek());
 
     }
 }
