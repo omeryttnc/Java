@@ -9,10 +9,12 @@ mixStart("piz snacks") → false
 
  */
 //public class MixStart {
-//    public static void main(String[] args) {
-//        mixStart("")
-//    }
-//    public static boolean mixStart(String str) {
-//return str.substring(1,3).contains("ix");
-////    }
+    //public static void main(String[] args) {
+      //  System.out.println(    mixStart("fgfhfg"));
+    //}
+  //  public static boolean mixStart(String str) {
+//String word = str.charAt(0)+ str.replaceFirst(str.substring(1,3),"ix")+str.substring(3);
+//return word;
+  //  }
+
 //}

@@ -11,10 +11,10 @@ public class g8 {
     }
 
     public static long sumDigits(long n) {
-        long sum = 0;
+        int sum = 0;
 
-        while (n % 10 == 0) {
-            sum += n;
+        while (n > 0) {
+            sum += n%10;
             n = n / 10;
         }
         return sum;

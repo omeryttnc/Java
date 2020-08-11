@@ -27,8 +27,12 @@ public class cs5 {
         map.put(12, "December");
 
         String wmonth = map.get(month);
-        if ((year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) && wmonth.equals("February")) {
-            days=29;
+        if (wmonth.equals("February")) {
+            if((year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) ){
+                days=29;
+            }else {
+                days=28;
+            }
         }
          else if (map.containsKey(1) || map.containsKey(3) || map.containsKey(5) || map.containsKey(7) ||
         map.containsKey(8) || map.containsKey(10) || map.containsKey(12) ){
