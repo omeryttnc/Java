@@ -7,7 +7,6 @@ appears in the string and also as the last 2 chars of the string, so "hixxxhi" y
 last2("hixxhi") → 1
 last2("xaxxaxaxx") → 1
 last2("axxxaaxx") → 2
-
 public class last2_ {
     public static void main(String[] args) {
 
@@ -18,3 +17,4 @@ public class last2_ {
 
 }
 */
+

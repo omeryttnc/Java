@@ -9,6 +9,7 @@ Given a string, return a new string where "not " has been added to the front.
 notString("candy") → "not candy"
 notString("x") → "not x"
 notString("not bad") → "not bad"
+*/
 
 public class NotString {
     public static void main(String[] args) {
@@ -16,15 +17,10 @@ public class NotString {
     }
 
     public static String notString(String str) {
-        String sss = null;
-        if (str.length() > 3) {
-            if (!str.substring(0, 3).contains("not")) {
-                sss = "not " + str;
-            }
-        } else if {
+        if (str.length() >= 3 && str.substring(0, 3).equals("not")) {
             return str;
         }
-        return sss;
+
+        return "not " + str;
     }
 }
-*/
